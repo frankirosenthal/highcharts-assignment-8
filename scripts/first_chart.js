@@ -9,18 +9,18 @@ Highcharts.chart('container', {
       text: 'Fruit Consumption'
     },
     xAxis: {
-      categories: ['Apples', 'Bananas', 'Oranges', 'Mangoes']
+      categories: ['Peaches', 'Apples', 'Bananas', 'Oranges',]
     },
     yAxis: {
       title: {
-        text: 'Items of fruit that were eaten last week in Susan and Scott\'s house'
+        text: 'Items of fruit that were eaten last week in Franki and Annie\'s house'
       }
     },
     series: [{
-      name: 'Scott',
-      data: [1, 0, 4, 2]
+      name: 'Franki',
+      data: [6, 1, 0, 4,]
     }, {
-      name: 'Susan',
-      data: [5, 7, 3, 0]
+      name: 'Annie',
+      data: [6, 5, 7, 3,]
     }]
   });

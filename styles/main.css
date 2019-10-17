@@ -1,0 +1,72 @@
+html{
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto Slab', 'Georgia', serif;
+    color: #000;
+    background: #ebab34;
+    margin: 0;
+}
+
+article{
+  max-width: 700px;
+  margin: auto;
+}
+
+h1, p {
+  text-align: center;
+  margin: 1rem 2rem 1rem 2rem;
+}
+
+h2 {
+  text-align: center;
+  margin: 0.5rem;
+}
+
+#container {
+  max-width: 100%;
+  height: 400px;
+  background: #44b1bd;
+  margin: 1.5rem;
+
+}
+
+#container2 {
+  max-width: 100%;
+  height:400px;
+  background: #44b1bd;
+  margin: 1.5rem;
+}
+
+#subcaption {
+  text-align: center;
+  margin: 1rem;
+}
+
+/* links below */
+
+a {
+    color: #1333c2;
+}
+
+a:hover {
+    color: #1382c2;
+}
+
+/* media queries below */
+
+@media screen and (max-width: 720px) {
+  body {
+    margin: 1rem;
+  }
+
+  article {
+    margin: 1rem;
+  }
+}
